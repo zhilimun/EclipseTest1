@@ -105,7 +105,7 @@ void loop() {
 	}
 
 	stepper_Z_L.stop();
-
+	stepper_blade_L.stop();
 	 //stepper_blade_L.runSpeed();
 	 //Serial.print(digitalRead(Proximity_Head));
 	 //delay(100);
