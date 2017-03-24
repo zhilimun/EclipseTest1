@@ -106,7 +106,10 @@ void loop() {
 
 	stepper_Z_L.stop();
 	stepper_blade_L.stop();
+
 	Serial.print("This is for testing branch 2");
+	Serial.print("This is test for branch 1");
+
 	 //stepper_blade_L.runSpeed();
 	 //Serial.print(digitalRead(Proximity_Head));
 	 //delay(100);
