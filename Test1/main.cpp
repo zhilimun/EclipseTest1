@@ -103,7 +103,8 @@ void loop() {
 		Serial.print("\n\r");
 		delay(20);
 	}
-	//stepper_Z_L.stop();
+
+	stepper_Z_L.stop();
 
 	 //stepper_blade_L.runSpeed();
 	 //Serial.print(digitalRead(Proximity_Head));
